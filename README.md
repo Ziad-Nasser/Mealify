@@ -15,7 +15,7 @@ Mealify is a modern, responsive restaurant landing page built with HTML, CSS, an
 
 ## Preview
 
-![Mealify Preview](images/hero-img.png)
+![Mealify Preview](images/image.png)
 
 ## Sections
 
