@@ -36,4 +36,4 @@ Mealify is a modern, responsive restaurant landing page built with HTML, CSS, an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ziad-Nasser/mealify.git
+git clone https://github.com/Ziad-Nasser/Mealify.git
