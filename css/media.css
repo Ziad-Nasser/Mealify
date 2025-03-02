@@ -1,0 +1,120 @@
+@media (max-width: 1279px) {
+  .home {
+    height: auto;
+  }
+  .home .container .image {
+    padding-top: 20px;
+  }
+  .home .container .text {
+    padding-top: 20px;
+  }
+  .footer .container .footer-content .disc-content {
+    width: 49%;
+    order: 1;
+  }
+  .footer .container .footer-content .dtls-content {
+    width: 100%;
+    order: 3;
+  }
+  .footer .container .footer-content .cntct-content {
+    width: 49%;
+    order: 2;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .container ul {
+    position: absolute;
+    top: 78px;
+    right: 0;
+    width: 100%;
+    color: #000;
+    flex-direction: column;
+    text-align: left;
+    background-color: #fff;
+    z-index: 5555;
+  }
+  .header .container ul.none {
+    display: none;
+  }
+  .header .container ul li a {
+    padding: 15px;
+  }
+  .header .container .icons .bar {
+    display: unset;
+  }
+  .home .container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .home .container .image {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .home .container .text {
+    text-align: center;
+    width: 100%;
+  }
+  .home .container .buttons {
+    justify-content: center;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .chefs .chefs-cards .card .icons ul li a {
+    font-size: 16px;
+  }
+  .gallery .container .galley-images {
+    columns: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .chefs .chefs-cards {
+    row-gap: 20px;
+  }
+  .chefs .chefs-cards .card {
+    width: 47%;
+  }
+  .gallery .container .galley-images {
+    columns: 1;
+  }
+  .contact .container .contact-info .info {
+    width: 100%;
+  }
+  .contact .container form .input {
+    width: 100%;
+  }
+  .footer .container .footer-content .disc-content {
+    width: 100%;
+    order: 1;
+  }
+  .footer .container .footer-content .dtls-content {
+    width: 100%;
+    order: 2;
+  }
+  .footer .container .footer-content .cntct-content {
+    width: 100%;
+    order: 3;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+  .home .container .text h2 {
+    font-size: 50px;
+  }
+  .chefs .chefs-cards .card {
+    width: 100%;
+  }
+  .footer .container .footer-content .dtls-content .subscribe {
+    flex-wrap: wrap;
+  }
+  .footer .container .footer-content .dtls-content .subscribe input {
+    width: 100%;
+  }
+  .footer .container .footer-content .dtls-content .subscribe button {
+    width: 100%;
+  }
+}
